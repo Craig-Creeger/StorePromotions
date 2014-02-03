@@ -151,7 +151,7 @@ makeDbConnection();
 			<li>The backend is object-oriented PHP that uses PDO to access the MySQL database.</li>
 			<li>All the typography is using <code>@font-face</code> and Google Webfonts to give the page a unique feel.</li>
 			<li>Fields that display currency are using a Javascript library to format the number for US dollars.</li>
-			<li>The source code for this site can be view on <a href="https://github.com/Craig-Creeger/Proof-of-Concept" target="_blank">my Github page</a>.</li> 
+			<li>The source code for this site can be view on <a href="https://github.com/Craig-Creeger/StorePromotions" target="_blank">my Github page</a>.</li> 
 		</ul>
 	</div>
 </div>
