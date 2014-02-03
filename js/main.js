@@ -385,6 +385,9 @@ $('.colorbox').colorbox({
 	width:'90%'
 });
 
+//Make the initial load of the page display the [Learn More] content.
+$('a[href="#learnMore"]').trigger('click');
+
 // Setting up a loading indicator using Ajax Events
 $(document).ajaxStart(function() {
 	$('#loadingIndicator').show();

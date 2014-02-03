@@ -123,7 +123,7 @@ makeDbConnection();
 			<div class="promoSetup" id="cc"><label for="conditionCurrency">Spend $</label><br>
 				<input name="conditionCurrency" type="text" id="conditionCurrency" value="100.00" size="7"> </div>
 			<div class="promoSetup" id="cq"><label for="conditionUnits">How many?</label><br>
-				<input name="conditionUnits" type="text" id="conditionUnits" value="3" size="7"> </div>
+				<input name="conditionUnits" type="number" id="conditionUnits" value="3" size="7"> </div>
 			<div class="promoSetup" id="dp"><label for="discountPercent">Discount %</label><br>
 				<input name="discountPercent" type="text" id="discountPercent" value="40%" size="7"> </div>
 			<div class="promoSetup" id="dc"><label for="discountCurrency">Discount $</label><br>
