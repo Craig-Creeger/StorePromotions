@@ -1,0 +1,335 @@
+/* ==========================================================================
+   HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
+   ========================================================================== */
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #111;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+img {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.chromeframe {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+/*==========================================================
+   Craig Creeger's custom styles
+   ========================================================= */
+/************************
+ * DEFAULTS             *
+ ************************/
+html {
+	font-family: 'Sintony', Verdana, sans-serif;
+	font-size:100%;
+    line-height: 1.4;
+	background-color:#7A0019;
+	min-width:540px;
+}
+body {
+	width:80%;
+	margin:30px auto 0;
+	background-color:#FC3;
+	box-shadow:0 0 30px black;
+}
+
+/************************
+ * TYPOGRAPHY           *
+ ************************/
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Roboto Slab', Georgia, serif;
+	font-weight:normal;
+}
+
+/************************
+ * STRUCTURE            *
+ ************************/
+header, footer {
+	background-color:white;
+	border-bottom: medium solid black;
+	border-top: medium solid black;
+	overflow:hidden;
+	padding:0 2em;
+}
+div[role="main"] {
+	padding:0 2em;
+}
+
+.promoSetup {
+	float:left;
+	margin-right:2em;
+	margin-bottom:1em;
+}
+.pushLeft {
+	float:left;
+	margin-right:2em;
+	margin-bottom:1em;
+}
+/************************
+ * Buttons              *
+ ************************/
+.button, button { /* Style the <button> element, and optionally make <a> or <input submit|button> elements look the same. */
+	text-decoration:none;
+	color:#7a0019; /* maroon */
+	display:inline-block;
+	padding:2px .7em;
+	background-color:white;
+	border-radius:6px;
+	border:thin solid #7a0019;
+	font-size:.875rem;
+	font-weight:bold;
+	line-height:inherit;
+	cursor:pointer;
+	-webkit-appearance: none;
+	font-family:'Sintony', Verdana, sans-serif;
+}
+.addProduct {
+	padding:0;
+	border:thin solid black;
+	margin-left:1%;
+	-webkit-appearance: none;
+	width:23%;
+	background-color:white;
+}
+.addProduct img {
+	max-width:100%;
+}
+/************************
+ * Block elements       *
+ ************************/
+.dataTable {
+	border-collapse:collapse;
+	margin:1em 0;
+}
+.dataTable caption {
+	background-color:rgba(255,255,255,0.5);
+	padding:.2em;
+}
+.dataTable td, .dataTable th {
+	border:thin solid black;
+	padding:.2em .8em;
+}
+.dataTable td + td {
+	text-align:right;
+}
+.dataTable tfoot {
+	background-color:rgba(255,255,255,0.5);
+	font-weight:bold;
+}
+/**************************
+ * AJAX Loading Indicator *
+ **************************/
+#loadingIndicator {
+	display:none;
+	position:fixed;
+	width:100%;
+	height:100%;
+	top:0;
+	left:0;
+	background-color:white;
+	background-color:rgba(255,255,255,.6);
+}
+#loadingGfx {
+	background-image:url(../img/ajax-loader.gif);
+	width:32px;
+	height:32px;
+	position:fixed;
+	left:50%;
+	top:50%;
+	margin-left:-16px;
+	margin-top:-16px;
+}
+/************************
+ * Inline elements      *
+ ************************/
+.horizontalList {
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+.horizontalList li {
+	margin:0;
+	padding:0;
+	display:inline;
+}
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+@media only screen and (max-width: 907px) {
+	body {
+		width:100%;
+		margin:0;
+	}
+}
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
+}
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster: h5bp.com/s */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links for images, or javascript/internal links
+     */
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group; /* h5bp.com/t */
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
